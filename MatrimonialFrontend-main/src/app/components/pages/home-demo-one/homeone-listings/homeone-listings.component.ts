@@ -15,7 +15,7 @@ export class HomeoneListingsComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'Trending Listings Right Now',
+            title: 'Just Get Married Happy Couple',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.'
         }
     ]
@@ -23,7 +23,7 @@ export class HomeoneListingsComponent implements OnInit {
         {
             mainImg: [
                 {
-                    img: 'assets/img/listings/listings1.jpg'
+                    img: 'assets/img/list_b.jpg'
                 }
             ],
             categoryLink: 'single-listings',
@@ -59,10 +59,10 @@ export class HomeoneListingsComponent implements OnInit {
         {
             mainImg: [
                 {
-                    img: 'assets/img/listings/listings2.jpg'
+                    img: 'assets/img/listings/list_c.jpg'
                 },
                 {
-                    img: 'assets/img/listings/listings4.jpg'
+                    img: 'assets/img/listings/list_b.jpg'
                 }
             ],
             categoryLink: 'single-listings',
@@ -98,7 +98,7 @@ export class HomeoneListingsComponent implements OnInit {
         {
             mainImg: [
                 {
-                    img: 'assets/img/listings/listings3.jpg'
+                    img: 'assets/img/listings/list_b.jpg'
                 }
             ],
             categoryLink: 'single-listings',
@@ -134,10 +134,10 @@ export class HomeoneListingsComponent implements OnInit {
         {
             mainImg: [
                 {
-                    img: 'assets/img/listings/listings5.jpg'
+                    img: 'assets/img/listings/list_c.jpg'
                 },
                 {
-                    img: 'assets/img/listings/listings6.jpg'
+                    img: 'assets/img/listings/list_b.jpg'
                 }
             ],
             categoryLink: 'single-listings',

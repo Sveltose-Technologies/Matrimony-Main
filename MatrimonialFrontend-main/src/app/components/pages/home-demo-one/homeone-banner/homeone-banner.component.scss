@@ -1,10 +1,10 @@
 .main-banner-area {
     padding: {
-        top: 330px;
+        top: 250px;
         bottom: 250px;
     };
     background: {
-        image: url(../../../../../assets/img/home-banner.jpg);
+        image: url(../../../../../assets/img/bg-1.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -34,8 +34,9 @@
     }
     p {
         line-height: initial;
-        color: #bcbcbc;
+        color: #ffffff;
         font-size: 18px;
+        font-weight: 600;
         margin: 0;
     }
     form {

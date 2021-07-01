@@ -14,28 +14,28 @@ export class FeaturesComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'Your Small Business Start With Vesax',
+            title: 'Your Wedding Planing Start Here',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.'
         }
     ]
     singleFeaturesBox = [
         {
             icon: 'flaticon-commerce',
-            title: 'Lunch Your Business',
+            title: 'Lorem Ipsum',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
             linkText: 'Get Start Now',
             link: 'contact'
         },
         {
             icon: 'flaticon-project',
-            title: 'Manage Your Business',
+            title: 'Lorem Ipsum',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
             linkText: 'Get Start Now',
             link: 'contact'
         },
         {
             icon: 'flaticon-growth',
-            title: 'Grow Your Business',
+            title: 'Lorem Ipsum',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
             linkText: 'Get Start Now',
             link: 'contact'

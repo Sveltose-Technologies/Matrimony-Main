@@ -15,8 +15,8 @@ export class HomeoneBannerComponent implements OnInit {
 
     mainBannerContent = [
         {
-            title: 'Find Nearby',
-            paragraph: 'Expolore top-rated attractions, activities and more...',
+            title: 'FIND YOUR PERFECT',
+            paragraph: 'OVER 1200+ WEDDING PARTNERS FOR YOU SPECIAL DATE & FIND THE PERFECT VENUE & SAVE YOU DATE.',
             popularSearchList: [
                 {
                     title: 'Restaurants',
@@ -59,24 +59,27 @@ export class HomeoneBannerComponent implements OnInit {
     options = [
         // Type here your category name
         {
-            name: "Restaurants",
+            name: "Lorem",
         },
         {
-            name: "Events",
+            name: "Lorem",
         },
         {
-            name: "Clothing",
+            name: "Lorem",
         },
         {
-            name: "Bank",
+            name: "Lorem",
         },
         {
-            name: "Fitness",
+            name: "Lorem",
         },
         {
-            name: "Bookstore",
+            name: "Lorem",
         }
+       
     ];
+
+
     searchChange($event) {
         console.log($event);
     }
@@ -85,3 +88,7 @@ export class HomeoneBannerComponent implements OnInit {
     }
 
 }
+
+
+
+

@@ -14,7 +14,7 @@ export class AppDownloadComponent implements OnInit {
 
     appDownloadContent = [
         {
-            title: 'Download Vesax App',
+            title: 'Download Matrimonial App',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             btnBox: [
                 {
@@ -34,7 +34,7 @@ export class AppDownloadComponent implements OnInit {
     ]
     appDownloadImage = [
         {
-            img: 'assets/img/app-download.png'
+            img: 'assets/img/app-download2.png'
         }
     ];
 

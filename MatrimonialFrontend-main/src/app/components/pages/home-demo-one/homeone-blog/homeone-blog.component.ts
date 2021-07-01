@@ -18,7 +18,7 @@ export class HomeoneBlogComponent implements OnInit {
             authorImg: 'assets/img/user1.jpg',
             authorName: 'Taylor',
             date: 'Aug 7, 2020',
-            title: '10 Types of Social Proof and What Makes Them Effective',
+            title: 'Lorem Ipsum',
             link: 'blog-details'
         },
         {
@@ -26,24 +26,24 @@ export class HomeoneBlogComponent implements OnInit {
             authorImg: 'assets/img/user2.jpg',
             authorName: 'Sarah',
             date: 'Aug 6, 2020',
-            title: 'Tech Products That Make It Easier to Stay Home',
+            title: 'Lorem Ipsum',
             link: 'blog-details'
         }
     ]
     singleEventsItem = [
         {
             date: 'Thu, Jul 30, 11:30 am - 10:00 pm',
-            title: 'International Agriculture and Technology Summit',
+            title: 'Lorem Ipsum',
             link: 'single-events'
         },
         {
             date: 'Thu, Jul 29, 11:30 am - 10:00 pm',
-            title: 'Digital Marketing: Customer Engagement & Social Media',
+            title: 'Lorem Ipsum',
             link: 'single-events'
         },
         {
             date: 'Thu, Jul 28, 11:30 am - 10:00 pm',
-            title: 'Internet of Things Forum Africa Exhibition (IOTFA)',
+            title: 'Lorem Ipsum',
             link: 'single-events'
         }
     ]
