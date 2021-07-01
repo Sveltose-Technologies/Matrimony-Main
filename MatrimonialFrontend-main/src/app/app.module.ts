@@ -75,6 +75,7 @@ import { DashboardMyProfileComponent } from './components/pages/dashboard/dashbo
 import { DashboardAddListingsComponent } from './components/pages/dashboard/dashboard-add-listings/dashboard-add-listings.component';
 import { DashboardBookmarksComponent } from './components/pages/dashboard/dashboard-bookmarks/dashboard-bookmarks.component';
 import { DashboardMyListingsComponent } from './components/pages/dashboard/dashboard-my-listings/dashboard-my-listings.component';
+import { ProfileDetailComponent } from './components/pages/profile-detail/profile-detail.component';
 
 @NgModule({
   declarations: [
@@ -144,7 +145,8 @@ import { DashboardMyListingsComponent } from './components/pages/dashboard/dashb
     DashboardMyProfileComponent,
     DashboardAddListingsComponent,
     DashboardBookmarksComponent,
-    DashboardMyListingsComponent
+    DashboardMyListingsComponent,
+    ProfileDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -154,7 +156,7 @@ import { DashboardMyListingsComponent } from './components/pages/dashboard/dashb
     SelectDropDownModule,
     NgxTypedJsModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

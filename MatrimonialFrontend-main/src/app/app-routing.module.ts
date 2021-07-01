@@ -35,6 +35,7 @@ import { NotFoundComponent } from './components/pages/not-found/not-found.compon
 import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ProductsDetailsComponent } from './components/pages/products-details/products-details.component';
 import { ProductsListComponent } from './components/pages/products-list/products-list.component';
+import { ProfileDetailComponent } from './components/pages/profile-detail/profile-detail.component';
 import { TopPlaceComponent } from './components/pages/top-place/top-place.component';
 import { VerticalListingsFullWidthComponent } from './components/pages/vertical-listings-full-width/vertical-listings-full-width.component';
 import { VerticalListingsLeftSidebarComponent } from './components/pages/vertical-listings-left-sidebar/vertical-listings-left-sidebar.component';
@@ -80,6 +81,9 @@ const routes: Routes = [
     {path: 'dashboard-bookmarks', component: DashboardBookmarksComponent},
     {path: 'dashboard-my-listings', component: DashboardMyListingsComponent},
     // Here add new pages component
+
+    // new component
+    {path: 'profile-detail', component: ProfileDetailComponent},
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
 ];
