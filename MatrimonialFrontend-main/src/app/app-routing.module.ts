@@ -20,6 +20,11 @@ import { DashboardMyProfileComponent } from './components/pages/dashboard/dashbo
 import { DashboardReviewsComponent } from './components/pages/dashboard/dashboard-reviews/dashboard-reviews.component';
 import { DashboardWalletComponent } from './components/pages/dashboard/dashboard-wallet/dashboard-wallet.component';
 import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
+import { BulkMemberComponent } from './components/pages/dashboard/member/bulk-member/bulk-member.component';
+import { DeletedMemberComponent } from './components/pages/dashboard/member/deleted-member/deleted-member.component';
+import { FreeMemberComponent } from './components/pages/dashboard/member/free-member/free-member.component';
+import { PremiumMemberComponent } from './components/pages/dashboard/member/premium-member/premium-member.component';
+import { ReportedMemberComponent } from './components/pages/dashboard/member/reported-member/reported-member.component';
 import { EventsDetailsComponent } from './components/pages/events-details/events-details.component';
 import { EventsComponent } from './components/pages/events/events.component';
 import { FaqComponent } from './components/pages/faq/faq.component';
@@ -84,6 +89,11 @@ const routes: Routes = [
 
     // new component
     {path: 'profile-detail', component: ProfileDetailComponent},
+    {path: 'member/free-member', component: FreeMemberComponent},
+    {path: 'member/premium-member', component: PremiumMemberComponent},
+    {path: 'member/bulk-member', component: BulkMemberComponent},
+    {path: 'member/deleted-member', component: DeletedMemberComponent},
+    {path: 'member/reported-member', component: ReportedMemberComponent},
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
 ];

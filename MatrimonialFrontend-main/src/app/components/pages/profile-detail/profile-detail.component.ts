@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import Stepper from 'bs-stepper'
+import { LocalDataSource } from 'ng2-smart-table';
 
 @Component({
   selector: 'app-profile-detail',
@@ -8,9 +8,19 @@ import Stepper from 'bs-stepper'
 })
 export class ProfileDetailComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  
+  breadcrumb = [
+    {
+      title: 'Commission-List',
+      subTitle: 'Dashboard'
+    }
+  ]
+
 
 }

@@ -1,43 +1,87 @@
 <app-navbar-style-one></app-navbar-style-one>
 
-<section class="pb-70 pt-80">
-    <div class="container">
-        <div class="row">
-            <div class="bs-stepper">
-                <div class="bs-stepper-header" role="tablist">
-                  <!-- your steps here -->
-                  <div class="step" data-target="#logins-part">
-                    <button type="button" class="step-trigger" role="tab" aria-controls="logins-part" id="logins-part-trigger">
-                      <span class="bs-stepper-circle">1</span>
-                      <span class="bs-stepper-label">Logins</span>
-                    </button>
-                  </div>
-                  <div class="line">
-                  </div>
-                  <div class="step" data-target="#information-part">
-                    <button type="button" class="step-trigger" role="tab" aria-controls="information-part" id="information-part-trigger">
-                      <span class="bs-stepper-circle">2</span>
-                      <span class="bs-stepper-label">Various information</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="bs-stepper-content">
-                  <!-- your steps content here -->
-                  <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">fgggfgf</div>
-                  <div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger">gfgfgfgf</div>
-                </div>
-              </div>
+
+<div class="row">
+    <div class="col-12">
+         
+      <!-- Vertical Steppers -->
+<div class="row mt-1">
+  <div class="col-md-12">
+
+    <!-- Stepers Wrapper -->
+    <ul class="stepper stepper-vertical">
+
+      <!-- First Step -->
+      <li class="completed">
+        <a href="#!">
+          <span class="circle">1</span>
+          <span class="label">First step</span>
+        </a>
+      </li>
+
+      <!-- Second Step -->
+      <li class="active">
+
+        <!--Section Title -->
+        <a href="#!">
+          <span class="circle">2</span>
+          <span class="label">Second step</span>
+        </a>
+
+        <!-- Section Description -->
+        <div class="step-content grey lighten-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere
+            iusto
+            quaerat
+            vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore
+            nostrum
+            ut,
+            nobis porro sapiente.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore error excepturi veniam nemo
+            repellendus, distinctio soluta vitae at sit saepe. Optio eaque quia excepturi adipisci pariatur
+            totam,
+            atque odit fugiat.</p>
+          <p>Deserunt voluptatem illum quae nisi soluta eum perferendis nesciunt asperiores tempore saepe
+            reiciendis,
+            vero quod a dolor corporis natus qui magni quas fuga rem excepturi laboriosam. Quisquam
+            expedita ab
+            fugiat.</p>
         </div>
-    </div>
-</section>
+      </li>
 
+      <!-- Third Step -->
+      <li class="warning">
+        <a href="#!">
+          <span class="circle"><i class="fas fa-exclamation"></i></span>
+          <span class="label">Third step</span>
+        </a>
+      </li>
 
+      <!-- Fourth Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">4</span>
+          <span class="label">Fourth step</span>
+        </a>
+      </li>
 
+    </ul>
+    <!-- /.Stepers Wrapper -->
 
+  </div>
+</div>
 
+<!-- Steppers Navigation -->
+<div class="row mt-1">
+  <div class="col-md-12 text-right">
+    <button class="btn btn-flat btn-sm">Cancel</button>
+    <button class="btn btn-primary btn-sm">Next</button>
+  </div>
+</div>
+<!-- /.Vertical Steppers -->
 
-
-
+     </div>
+ </div>
 
 
 

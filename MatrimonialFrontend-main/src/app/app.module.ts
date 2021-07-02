@@ -76,6 +76,14 @@ import { DashboardAddListingsComponent } from './components/pages/dashboard/dash
 import { DashboardBookmarksComponent } from './components/pages/dashboard/dashboard-bookmarks/dashboard-bookmarks.component';
 import { DashboardMyListingsComponent } from './components/pages/dashboard/dashboard-my-listings/dashboard-my-listings.component';
 import { ProfileDetailComponent } from './components/pages/profile-detail/profile-detail.component';
+import { NgStepperModule } from 'angular-ng-stepper';
+import { CdkStepperModule } from '@angular/cdk/stepper';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { FreeMemberComponent } from './components/pages/dashboard/member/free-member/free-member.component';
+import { PremiumMemberComponent } from './components/pages/dashboard/member/premium-member/premium-member.component';
+import { BulkMemberComponent } from './components/pages/dashboard/member/bulk-member/bulk-member.component';
+import { DeletedMemberComponent } from './components/pages/dashboard/member/deleted-member/deleted-member.component';
+import { ReportedMemberComponent } from './components/pages/dashboard/member/reported-member/reported-member.component';
 
 @NgModule({
   declarations: [
@@ -146,7 +154,12 @@ import { ProfileDetailComponent } from './components/pages/profile-detail/profil
     DashboardAddListingsComponent,
     DashboardBookmarksComponent,
     DashboardMyListingsComponent,
-    ProfileDetailComponent
+    ProfileDetailComponent,
+    FreeMemberComponent,
+    PremiumMemberComponent,
+    BulkMemberComponent,
+    DeletedMemberComponent,
+    ReportedMemberComponent,
   ],
   imports: [
     BrowserModule,
@@ -157,6 +170,10 @@ import { ProfileDetailComponent } from './components/pages/profile-detail/profil
     NgxTypedJsModule,
     FormsModule,
     NgxPaginationModule,
+    NgStepperModule,
+    CdkStepperModule,
+    Ng2SmartTableModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
