@@ -84,6 +84,7 @@ import { PremiumMemberComponent } from './components/pages/dashboard/member/prem
 import { BulkMemberComponent } from './components/pages/dashboard/member/bulk-member/bulk-member.component';
 import { DeletedMemberComponent } from './components/pages/dashboard/member/deleted-member/deleted-member.component';
 import { ReportedMemberComponent } from './components/pages/dashboard/member/reported-member/reported-member.component';
+import { StepperDemoComponent } from './components/pages/stepper-demo/stepper-demo.component';
 
 @NgModule({
   declarations: [
@@ -160,6 +161,7 @@ import { ReportedMemberComponent } from './components/pages/dashboard/member/rep
     BulkMemberComponent,
     DeletedMemberComponent,
     ReportedMemberComponent,
+    StepperDemoComponent,
   ],
   imports: [
     BrowserModule,
