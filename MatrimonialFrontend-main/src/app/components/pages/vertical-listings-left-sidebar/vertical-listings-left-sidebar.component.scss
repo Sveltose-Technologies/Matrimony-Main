@@ -808,6 +808,23 @@
     }
 }
 
+button.sre-btn {
+    background: #f00;
+    color: #fff;
+    border: navajowhite;
+    padding: 10px 21px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+label.lb-ser {
+    color: #66667f;
+    font-size: 12px;
+}
+section.widget.widget_filters.rs-pd {
+    border: 1px solid#66667f26;
+    padding: 23px;
+}
+
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
 

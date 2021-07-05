@@ -41,6 +41,7 @@ import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ProductsDetailsComponent } from './components/pages/products-details/products-details.component';
 import { ProductsListComponent } from './components/pages/products-list/products-list.component';
 import { ProfileDetailComponent } from './components/pages/profile-detail/profile-detail.component';
+import { StepperDemoComponent } from './components/pages/stepper-demo/stepper-demo.component';
 import { TopPlaceComponent } from './components/pages/top-place/top-place.component';
 import { VerticalListingsFullWidthComponent } from './components/pages/vertical-listings-full-width/vertical-listings-full-width.component';
 import { VerticalListingsLeftSidebarComponent } from './components/pages/vertical-listings-left-sidebar/vertical-listings-left-sidebar.component';
@@ -94,6 +95,8 @@ const routes: Routes = [
     {path: 'member/bulk-member', component: BulkMemberComponent},
     {path: 'member/deleted-member', component: DeletedMemberComponent},
     {path: 'member/reported-member', component: ReportedMemberComponent},
+    {path: 'stepper-demo', component: StepperDemoComponent},
+
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
 ];

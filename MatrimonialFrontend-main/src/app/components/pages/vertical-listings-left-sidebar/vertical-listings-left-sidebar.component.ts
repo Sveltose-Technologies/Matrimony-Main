@@ -82,7 +82,7 @@ export class VerticalListingsLeftSidebarComponent implements OnInit {
     // All Listings
     singleListingsItem = [
         {
-            mainImg: 'assets/img/listings/listings9.jpg',
+            mainImg: 'assets/img/listings/listings9.png',
             categoryLink: 'single-listings',
             bookmarkLink: 'single-listings',
             category: 'Restaurant',
@@ -114,7 +114,7 @@ export class VerticalListingsLeftSidebarComponent implements OnInit {
             ratingCount: '18'
         },
         {
-            mainImg: 'assets/img/listings/listings10.jpg',
+            mainImg: 'assets/img/listings/listings10.png',
             categoryLink: 'single-listings',
             bookmarkLink: 'single-listings',
             category: 'Hotel',
@@ -146,7 +146,7 @@ export class VerticalListingsLeftSidebarComponent implements OnInit {
             ratingCount: '10'
         },
         {
-            mainImg: 'assets/img/listings/listings11.jpg',
+            mainImg: 'assets/img/listings/listings11.png',
             categoryLink: 'single-listings',
             bookmarkLink: 'single-listings',
             category: 'Shopping',
@@ -178,7 +178,7 @@ export class VerticalListingsLeftSidebarComponent implements OnInit {
             ratingCount: '55'
         },
         {
-            mainImg: 'assets/img/listings/listings12.jpg',
+            mainImg: 'assets/img/listings/listings12.png',
             categoryLink: 'single-listings',
             bookmarkLink: 'single-listings',
             category: 'Restaurant',
