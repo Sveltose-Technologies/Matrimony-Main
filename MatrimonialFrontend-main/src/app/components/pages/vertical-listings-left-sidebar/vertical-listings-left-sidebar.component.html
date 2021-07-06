@@ -1,7 +1,7 @@
-<app-navbar-style-two></app-navbar-style-two>
+<app-navbar-style-one></app-navbar-style-one>
 
 <!-- Start Page Title Area -->
-<div class="page-title-bg" *ngFor="let Content of pageTitleContent;">
+<!-- <div class="page-title-bg" *ngFor="let Content of pageTitleContent;">
     <div class="container">
         <h2 class="h_rs">{{Content.title}}</h2>
         <form>
@@ -35,7 +35,7 @@
             </div>
         </form>
     </div>
-</div>
+</div> -->
 <!-- End Page Title Area -->
 
 <!-- Start Listings Area -->
@@ -44,18 +44,172 @@
         <div class="row">
             <div class="col-lg-4 col-md-12">
                 <aside class="listings-widget-area">
-                    <section class="widget widget_filters">
-                        <h3 class="widget-title">Filters</h3>
+                     <section class="widget widget_filters rs-pd">
+                        <h3 class="widget-title">ADVANCED SEARCH
+                        </h3>
+                        <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="lb-ser">Age From</label>
+                                <input type="text" placeholder="20" class="form-control">
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="lb-ser">To</label>
+                                    <input type="text" placeholder="30" class="form-control">
+                                 </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Member Id</label>
+                                    <input type="text" placeholder="id" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Marital Status</label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option >Never Married</option>
+                                        <option >Married</option>
+                                        <option >Divorced </option>
+                                        <option >Separated </option>
+                                        <option >Widowed</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Religion </label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > Islam </option>
+                                        <option > Judaismm </option>
+                                        <option > Hinduism  </option>
+                                        <option > Christianity  </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Caste </label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > jain </option>
+                                        <option > lorem </option>
+                                        <option > lorem  </option>
+                                        <option > lorem  </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Sub Caste </label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > jain </option>
+                                        <option > lorem </option>
+                                        <option > lorem  </option>
+                                        <option > lorem  </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Mother Tongue  </label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > Hindi </option>
+                                        <option > English </option>
+                                        <option > Urdu  </option>
+                                        <option > Arabic   </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Profession</label>
+                                    <input type="text" placeholder="id" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">Country</label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > Afghanistan </option>
+                                        <option > Albania </option>
+                                        <option > Algeria  </option>
+                                        <option > American Samoa   </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">State</label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > lorem </option>
+                                        <option > lorem </option>
+                                        <option > lorem  </option>
+                                        <option > lorem  </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="lb-ser">City</label>
+                                    <select class="form-control">
+                                        <option selected>--Select One--</option>
+                                        <option > lorem </option>
+                                        <option > lorem </option>
+                                        <option > lorem  </option>
+                                        <option > lorem  </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="lb-ser">Min Height </label>
+                                    <input type="text" placeholder="5'5" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="lb-ser">Max Height</label>
+                                    <input type="text" placeholder="5'8" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="lb-ser">MEMBER TYPE</label>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                    <label class="custom-control-label" for="customCheck">Premium Member</label>
+                                    <br>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                    <label class="custom-control-label" for="customCheck">Free Member</label>
+                                    <br>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                    <label class="custom-control-label" for="customCheck">All Member</label>
+                                </div>
+                            </div>
 
-                        <ul>
+                            <div _ngcontent-xdt-c89="">
+                                <button class="sre-btn" >Search</button>
+                            </div>
+                        </div>
+                        </form>
+                        <!-- <ul>
                             <li><button type="button">$</button></li>
                             <li><button type="button">$$</button></li>
                             <li><button type="button">$$$</button></li>
                             <li><button type="button">$$$$</button></li>
-                        </ul>
+                        </ul> -->
                     </section>
 
-                    <section class="widget widget_categories">
+                    <!-- <section class="widget widget_categories">
                         <h3 class="widget-title">Categories</h3>
 
                         <ul>
@@ -175,24 +329,25 @@
                                 <span>See All</span>
                             </li>
                         </ul>
-                    </section>
+                    </section> -->
                 </aside>
             </div>
 
             <div class="col-lg-8 col-md-12">
                 <div class="listings-grid-sorting row align-items-center">
-                    <div class="col-lg-5 col-md-6 result-count">
+                    <!-- <div class="col-lg-5 col-md-6 result-count">
                         <p>We found <span class="count">9</span> listings available for you</p>
-                    </div>
+                    </div> -->
 
-                    <div class="col-lg-7 col-md-6 ordering">
+                    <!-- <div class="col-lg-7 col-md-6 ordering">
                         <div class="d-flex justify-content-end">
                             <div class="select-box">
                                 <label>Sort By:</label>
                                 <ngx-select-dropdown (searchChange)="searchChange($event)" name="ordering-select" tabindex="0" [multiple]="false" [(ngModel)]="singleSelect" [config]="config" [options]="options2"></ngx-select-dropdown>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <h3 class="widget-title">ALL MEMBERS</h3>
                 </div>
 
                 <div class="row">

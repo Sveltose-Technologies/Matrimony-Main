@@ -408,9 +408,30 @@
         }
     }
 }
+
+// new css 
+span.dont-account.ft-text {
+    margin-bottom: 20px;
+    float: right;
+    margin-top: 0px !important;
+}
+button.btn-ft-get {
+    background: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+label.lb-ser{
+    color: #66667f;
+    font-size: 12px;
+}
+
+
+
 .navbar-style-two {
-    position: absolute;
-    background-color: rgba(0, 0, 0, .16);
+    // position: absolute;
+    background-color: #221638;
     top: 0;
     left: 0;
     right: 0;
@@ -1122,6 +1143,13 @@
             }
         }
     }
+}
+
+// new css
+a.default-btn.btn-lr {
+    background-color: #f00 !important;
+    color: #fff!important;
+    border: none;
 }
 
 /* Max width 767px */
