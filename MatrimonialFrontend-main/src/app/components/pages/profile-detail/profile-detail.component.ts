@@ -7,9 +7,10 @@ import { LocalDataSource } from 'ng2-smart-table';
   styleUrls: ['./profile-detail.component.scss']
 })
 export class ProfileDetailComponent implements OnInit {
-
   
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

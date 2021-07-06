@@ -4,7 +4,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SelectDropDownModule } from 'ngx-select-dropdown';
 import { NgxTypedJsModule } from 'ngx-typed-js';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -85,6 +85,10 @@ import { BulkMemberComponent } from './components/pages/dashboard/member/bulk-me
 import { DeletedMemberComponent } from './components/pages/dashboard/member/deleted-member/deleted-member.component';
 import { ReportedMemberComponent } from './components/pages/dashboard/member/reported-member/reported-member.component';
 import { StepperDemoComponent } from './components/pages/stepper-demo/stepper-demo.component';
+import { StepperComponent } from './components/pages/stepper/stepper.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from './material/material.module';
+import { UserService } from './user.service';
 
 @NgModule({
   declarations: [
@@ -162,6 +166,7 @@ import { StepperDemoComponent } from './components/pages/stepper-demo/stepper-de
     DeletedMemberComponent,
     ReportedMemberComponent,
     StepperDemoComponent,
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
@@ -174,10 +179,12 @@ import { StepperDemoComponent } from './components/pages/stepper-demo/stepper-de
     NgxPaginationModule,
     NgStepperModule,
     CdkStepperModule,
-    Ng2SmartTableModule
-    
+    Ng2SmartTableModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    MaterialModule,
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

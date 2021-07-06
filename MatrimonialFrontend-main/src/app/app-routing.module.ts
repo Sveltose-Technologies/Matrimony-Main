@@ -41,6 +41,7 @@ import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ProductsDetailsComponent } from './components/pages/products-details/products-details.component';
 import { ProductsListComponent } from './components/pages/products-list/products-list.component';
 import { ProfileDetailComponent } from './components/pages/profile-detail/profile-detail.component';
+import { StepperComponent } from './components/pages/stepper/stepper.component';
 import { TopPlaceComponent } from './components/pages/top-place/top-place.component';
 import { VerticalListingsFullWidthComponent } from './components/pages/vertical-listings-full-width/vertical-listings-full-width.component';
 import { VerticalListingsLeftSidebarComponent } from './components/pages/vertical-listings-left-sidebar/vertical-listings-left-sidebar.component';
@@ -89,6 +90,7 @@ const routes: Routes = [
 
     // new component
     {path: 'profile-detail', component: ProfileDetailComponent},
+    {path: 'stepper', component: StepperComponent},
     {path: 'member/free-member', component: FreeMemberComponent},
     {path: 'member/premium-member', component: PremiumMemberComponent},
     {path: 'member/bulk-member', component: BulkMemberComponent},
